@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Syne", sans-serif;
+}
+
+:root {
+    --black-cl: #1D1F22;
+    --orange-cl: #E44905;
+    --color-ash: #f5f2fa;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* Container Hero Section Navbar */
+
+.container .element_banner_items {
+    padding: 60px 0;
+}
+
+.container .element_banner_items .row .title-head-bn {
+    border-right: 1px solid var(--black-cl);
+}
+
+.container .element_banner_items .row .title-head-bn .title-heading-bn {
+    color: var(--black-cl);
+    font-size: 5rem;
+    font-family: "Syne", sans-serif;
+    font-weight: 700;
+    z-index: 9999;
+}
+
+.container .element_banner_items .row .title-two-bn .title-heading-bn {
+    color: var(--black-cl);
+    font-size: 4.6rem;
+    font-family: "Syne", sans-serif;
+    font-weight: 700;
+    z-index: 9999;
+}
+
+.container .shape {
+    position: relative;
+    background: var(--orange-cl);
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    -webkit-filter: contrast(20);
+    filter: blur(10rem);
+    z-index: -9999;
+    left: -190px;
+    top: -390px;
+}
+
+/* vd_element_2 */
+.vd_element_2 {
+    margin-top: -280px;
+}
+
+/* About_Element */
+.about_element .row .card_text_fs {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.about_element .container .row .col .card_text_abt a {
+    text-decoration: none;
+    color: var(--black-cl);
+
+}
+
+/* Service */
+.service_element_component {
+    padding: 60px 0;
+    background: var(--color-ash);
+    box-sizing: border-box;
+}
+
+.service_element_component .service_element_sct .row {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+/* element_work_component */
+.element_work_component .container .element_steps_items .row .col .card_steps_items svg {
+    width: 30px;
+    height: 30px;
+}
+
+/* Footer */
+.element_footer_items {
+    background: var(--color-ash);
+}
+
+.element_footer_items .container .row .col .ft_items_links .ft_link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--black-cl);
+}
+
+
+.element_footer_items .container .row .col .link_map_lk svg {
+    width: 20px;
+}
+
+/* Table  Responsive*/
+
+
+/* Mobile Responsive */
