@@ -92,9 +92,21 @@ h2 {
     height: 30px;
 }
 
+/* CTA */
+.element_cta {
+    background: var(--color-ash);
+}
+
 /* Footer */
 .element_footer_items {
     background: var(--color-ash);
+
+
+}
+
+.element_footer_items .container {
+    padding: 25px 0;
+    border-top: 1px solid #eae9ec;
 }
 
 .element_footer_items .container .row .col .ft_items_links .ft_link {
